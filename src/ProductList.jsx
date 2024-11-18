@@ -21,4 +21,8 @@ function ProductList() {
         </div>
     );
 }
+ // Use the product.id as the unique key
+ <li key={product.id}>
+ <ProductItem product={product} />
+</li>
 export default ProductList;
