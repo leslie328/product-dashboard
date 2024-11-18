@@ -14,7 +14,7 @@ function ProductList() {
                 {products.map(product => (
                     <li key={product.id}>
                         {product.name} - ${product.price}
-                        key={product.id} 
+                         
                     </li>
                 ))}
             </ul>
